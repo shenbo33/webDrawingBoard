@@ -1,2 +1,2 @@
 # webDrawingBoard
-an drawing script on html5
+Drawing script with HTML5 
