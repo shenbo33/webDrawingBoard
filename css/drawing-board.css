@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#myCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #9C9898;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.canvas-p{
+    text-align: center;
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+}
+.canvas-p textarea{
+    width:200px;
+    height:40px;
+    border: 1px solid red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+.selectTools{
+    background-color: red;
+}
+
+
+div[data-tool="line-color"]{
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+div[data-tool="line-color"]>div{
+    height: 100%;
+}
+div[data-tool="font-color"]{
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+div[data-tool="font-color"]>div{
+    height: 100%;
+}
